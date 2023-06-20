@@ -1,0 +1,554 @@
+header{
+	text-align:center;
+	padding:20px;
+}
+
+@media only screen and (min-device-width: 1024px) {
+/* CSS para pc */
+*{
+	text-align:center;
+}
+
+* input[type=text]{
+	text-align:left;
+}
+
+* input[type=password]{
+	text-align:left;
+}
+
+.img_header{
+	width:10%; 	
+}
+
+.login{
+	text-align:center;
+}
+
+.login p{
+	font-size:20px;
+	padding:10px;
+	display:inline-block;
+}
+
+.login input{
+	font-size:20px;
+	width:20%;
+}
+
+.login input[type = submit]:hover{
+	transition:1s;
+	transform: scale(1.2,1.2);
+	background-color:rgb(50,168,40);
+}
+
+.cadastro{
+	text-align:center;
+}
+
+.cadastro p{
+	font-size:15px;
+	padding:15px;
+	display:inline-block;
+	
+}
+
+.cadastro table input{ 
+	font-size:20px;
+	width:30%; !important
+}
+
+.cadastro input{
+	font-size:20px;
+	width:20%;
+}
+
+.cadastro input[type=submit]{
+	font-size:20px;
+	width:20%;
+}
+
+.cadastro table{
+	display:inline-table;
+	border:0;
+	width:75%;
+	margin-left:25%;
+}
+
+.perfil input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.perfil input[type=button]{
+	font-size:20px;
+	width:25%;
+}
+
+.perfil p{
+	font-size:20px;
+}
+.perfil form{
+	margin-bottom:0;
+}
+
+.menu input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.pesquisa{
+	align-content:center;
+	display:inline-table;
+/*	border:1px solid;*/
+	width:80%;
+}
+.pesquisa input{
+	width:100%;
+}
+
+.col1{
+	width:80%;
+}
+
+.img_msg{
+	width:1%;
+}
+
+.mensagem form{
+	display:inline;
+}
+
+.mensagem div{
+	width:98%;
+	border: 1px solid;
+	text-align:left;
+	overflow:scroll;
+	height:280px;
+	margin-left:1%;
+}
+
+.mensagem input[type=submit]{
+	width:20%;
+}
+
+.mensagem input[type=text]{
+	width:60%;
+}
+
+
+}
+
+@media only screen and (max-device-width: 760px) {
+/* CSS para mobile */
+*{
+	text-align:center;
+}
+
+* input[type=text]{
+	text-align:left;
+}
+
+* input[type=password]{
+	text-align:left;
+}
+
+.img_header{
+	width:20%; 
+}
+
+.login p{
+	font-size:20px;
+	padding:10px;
+	display:inline-block;
+}
+
+.login input{
+	font-size:20px;
+	width:50%;
+}
+
+
+.login input[type = submit]:hover{
+	transition:1s;
+	transform: scale(1.2,1.2);
+	background-color:rgb(50,168,40);
+}
+
+.login span{
+	font-size:15px;
+	font-family:arial;
+}
+
+.login a{
+	text-decoration:none;
+	color:rgb(0,0,0); 
+}
+
+.login a:hover{
+	text-decoration:underline;
+	color:rgb(21,18,125);
+}
+
+.cadastro p{
+	font-size:15px;
+	padding:15px;
+	display:inline-block;
+	
+}
+
+.cadastro input{
+	font-size:20px;
+	width:100%;
+}
+
+.cadastro input[type=submit]{
+	font-size:20px;
+	width:50%;
+}
+
+.cadastro table{
+	display:inline-table;
+	border:0;
+	width:80%;
+}
+
+.perfil input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.perfil input[type=button]{
+	font-size:20px;
+	width:25%;
+}
+
+.perfil p{
+	font-size:20px;
+}
+.perfil form{
+	margin-bottom:0;
+}
+
+.menu input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.pesquisa{
+	align-content:center;
+	display:inline-table;
+/*	border:1px solid;*/
+	width:80%;
+}
+
+.col1{
+	width:80%;
+}
+
+.img_msg{
+	width:3%;
+}
+
+.mensagem form{
+	display:inline;
+}
+
+.mensagem div{
+	width:98%;
+	border: 1px solid;
+	text-align:left;
+	overflow:scroll;
+	height:280px;
+}
+
+.mensagem input[type=submit]{
+	width:20%;
+}
+
+.mensagem input[type=text]{
+	width:60%;
+}
+
+}
+header{
+	text-align:center;
+	padding:20px;
+}
+
+@media only screen and (min-device-width: 1024px) {
+/* CSS para pc */
+*{
+	text-align:center;
+}
+
+* input[type=text]{
+	text-align:left;
+}
+
+* input[type=password]{
+	text-align:left;
+}
+
+.img_header{
+	width:10%; 	
+}
+
+.login{
+	text-align:center;
+}
+
+.login p{
+	font-size:20px;
+	padding:10px;
+	display:inline-block;
+}
+
+.login input{
+	font-size:20px;
+	width:20%;
+}
+
+.login input[type = submit]:hover{
+	transition:1s;
+	transform: scale(1.2,1.2);
+	background-color:rgb(50,168,40);
+}
+
+.cadastro{
+	text-align:center;
+}
+
+.cadastro p{
+	font-size:15px;
+	padding:15px;
+	display:inline-block;
+	
+}
+
+.cadastro table input{ 
+	font-size:20px;
+	width:30%; !important
+}
+
+.cadastro input{
+	font-size:20px;
+	width:20%;
+}
+
+.cadastro input[type=submit]{
+	font-size:20px;
+	width:20%;
+}
+
+.cadastro table{
+	display:inline-table;
+	border:0;
+	width:75%;
+	margin-left:25%;
+}
+
+.perfil input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.perfil input[type=button]{
+	font-size:20px;
+	width:25%;
+}
+
+.perfil p{
+	font-size:20px;
+}
+.perfil form{
+	margin-bottom:0;
+}
+
+.menu input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.pesquisa{
+	align-content:center;
+	display:inline-table;
+/*	border:1px solid;*/
+	width:80%;
+}
+.pesquisa input{
+	width:100%;
+}
+
+.col1{
+	width:80%;
+}
+
+.img_msg{
+	width:1%;
+}
+
+.mensagem form{
+	display:inline;
+}
+
+.mensagem div{
+	width:98%;
+	border: 1px solid;
+	text-align:left;
+	overflow:scroll;
+	height:280px;
+	margin-left:1%;
+}
+
+.mensagem input[type=submit]{
+	width:20%;
+}
+
+.mensagem input[type=text]{
+	width:60%;
+}
+
+
+}
+
+@media only screen and (max-device-width: 760px) {
+/* CSS para mobile */
+*{
+	text-align:center;
+}
+
+* input[type=text]{
+	text-align:left;
+}
+
+* input[type=password]{
+	text-align:left;
+}
+
+.img_header{
+	width:20%; 
+}
+
+.login p{
+	font-size:20px;
+	padding:10px;
+	display:inline-block;
+}
+
+.login input{
+	font-size:20px;
+	width:50%;
+}
+
+
+.login input[type = submit]:hover{
+	transition:1s;
+	transform: scale(1.2,1.2);
+	background-color:rgb(50,168,40);
+}
+
+.login span{
+	font-size:15px;
+	font-family:arial;
+}
+
+.login a{
+	text-decoration:none;
+	color:rgb(0,0,0); 
+}
+
+.login a:hover{
+	text-decoration:underline;
+	color:rgb(21,18,125);
+}
+
+.cadastro p{
+	font-size:15px;
+	padding:15px;
+	display:inline-block;
+	
+}
+
+.cadastro input{
+	font-size:20px;
+	width:100%;
+}
+
+.cadastro input[type=submit]{
+	font-size:20px;
+	width:50%;
+}
+
+.cadastro table{
+	display:inline-table;
+	border:0;
+	width:80%;
+}
+
+.perfil input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.perfil input[type=button]{
+	font-size:20px;
+	width:25%;
+}
+
+.perfil p{
+	font-size:20px;
+}
+.perfil form{
+	margin-bottom:0;
+}
+
+.menu input{
+	font-size:20px;
+	width:50%;
+	margin-bottom: 20px;
+}
+
+.pesquisa{
+	align-content:center;
+	display:inline-table;
+/*	border:1px solid;*/
+	width:80%;
+}
+
+.col1{
+	width:80%;
+}
+
+.img_msg{
+	width:3%;
+}
+
+.mensagem form{
+	display:inline;
+}
+
+.mensagem div{
+	width:98%;
+	border: 1px solid;
+	text-align:left;
+	overflow:scroll;
+	height:280px;
+}
+
+.mensagem input[type=submit]{
+	width:20%;
+}
+
+.mensagem input[type=text]{
+	width:60%;
+}
+
+}
